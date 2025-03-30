@@ -1,6 +1,6 @@
 {
-    "app_id": "com.moodle.moodlemobile",
-    "appname": "Moodle Mobile",
+    "app_id": "college.athena.mobileapp",
+    "appname": "Athena College",
     "versioncode": 50001,
     "versionname": "5.0.0",
     "cache_update_frequency_usually": 420000,
@@ -87,12 +87,17 @@
         "high": 120
     },
     "customurlscheme": "moodlemobile",
-    "sites": [],
+    "sites": [
+        {
+            "name": "Athena College",
+            "url": "https://www.athena.college"
+        }
+    ],
     "multisitesdisplay": "",
     "sitefindersettings": {},
-    "onlyallowlistedsites": false,
+    "onlyallowlistedsites": true,
     "forcedefaultlanguage": false,
-    "privacypolicy": "https://moodle.net/moodle-app-privacy/",
+    "privacypolicy": "https://www.athena.college/privacypolicy",
     "notificoncolor": "#f98012",
     "enableanalytics": false,
     "enableonboarding": true,
